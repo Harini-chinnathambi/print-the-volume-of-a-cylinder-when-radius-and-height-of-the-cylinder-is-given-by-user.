@@ -1,1 +1,9 @@
-# print-the-volume-of-a-cylinder-when-radius-and-height-of-the-cylinder-is-given-by-user.
+r=int(input("enter the radius:"))
+h=int(input("enter the height:"))
+vol=3.14*r*r*h
+print("volume of cylinder is:",vol)
+
+output:
+enter the radius:12
+enter the height:56
+volume of cylinder is: 25320.96
